@@ -77,7 +77,7 @@ def validate_signup():
         else:
             email = email
 
-        if email == '':
+    if email == '':
             email = email
 
     if not username_error and not password_error and not password2_error and not email_error:
